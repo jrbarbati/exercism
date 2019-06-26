@@ -10,7 +10,7 @@ What did I write?
 <ul>
 	<li>Go</li>
 	<ul>
-		<li>Any file that does not end in "_test.go"</li>
+		<li>Any .go file that does not end in "_test.go"</li>
 	</ul>
 	<li>C++</li>
 	<ul>
