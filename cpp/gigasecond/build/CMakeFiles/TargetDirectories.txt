@@ -1,0 +1,4 @@
+/Users/jxb4933/go/src/exercism/cpp/gigasecond/build/CMakeFiles/rebuild_cache.dir
+/Users/jxb4933/go/src/exercism/cpp/gigasecond/build/CMakeFiles/edit_cache.dir
+/Users/jxb4933/go/src/exercism/cpp/gigasecond/build/CMakeFiles/test_gigasecond.dir
+/Users/jxb4933/go/src/exercism/cpp/gigasecond/build/CMakeFiles/gigasecond.dir

@@ -1,0 +1,4 @@
+/Users/jxb4933/go/src/exercism/cpp/hamming/build/CMakeFiles/rebuild_cache.dir
+/Users/jxb4933/go/src/exercism/cpp/hamming/build/CMakeFiles/edit_cache.dir
+/Users/jxb4933/go/src/exercism/cpp/hamming/build/CMakeFiles/test_hamming.dir
+/Users/jxb4933/go/src/exercism/cpp/hamming/build/CMakeFiles/hamming.dir

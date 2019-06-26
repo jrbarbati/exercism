@@ -1,0 +1,4 @@
+/Users/jxb4933/go/src/exercism/cpp/hello-world/build/CMakeFiles/rebuild_cache.dir
+/Users/jxb4933/go/src/exercism/cpp/hello-world/build/CMakeFiles/edit_cache.dir
+/Users/jxb4933/go/src/exercism/cpp/hello-world/build/CMakeFiles/test_hello-world.dir
+/Users/jxb4933/go/src/exercism/cpp/hello-world/build/CMakeFiles/hello-world.dir
