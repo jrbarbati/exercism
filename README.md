@@ -1,6 +1,6 @@
 # Exercism
 
-My solutions to exercises on <a href="https://exercism.io" target="_blank">exercism.io</a>
+My solutions to exercises on <a href="https://exercism.io/profiles/jrbarbati">exercism.io</a>
 
 Currently learning Go, C++, Swift, and C
 
