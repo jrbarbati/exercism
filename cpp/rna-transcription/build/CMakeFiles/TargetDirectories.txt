@@ -1,0 +1,4 @@
+/Users/jxb4933/exercism/cpp/rna-transcription/build/CMakeFiles/rebuild_cache.dir
+/Users/jxb4933/exercism/cpp/rna-transcription/build/CMakeFiles/edit_cache.dir
+/Users/jxb4933/exercism/cpp/rna-transcription/build/CMakeFiles/test_rna-transcription.dir
+/Users/jxb4933/exercism/cpp/rna-transcription/build/CMakeFiles/rna-transcription.dir
