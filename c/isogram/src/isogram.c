@@ -5,25 +5,26 @@
 #include "isogram.h"
 
 char *to_lower_case(const char *string);
-bool char_is_in(char *string, char c);
+bool bit_is_flipped(int seen, char bit);
+int flip_bit(int seen, char bit);
 
 bool is_isogram(const char phrase[])
 {
 	if (!phrase)
 		return false;
 
-	int j = 0;
-	char *letters = calloc(strlen(phrase), sizeof(char));
+	int j, seen;
 	phrase = to_lower_case(phrase);
+	j = 0;
+	seen = 0;
 
-	for(int i = 0; phrase[i]; i++)
+	for (int i = 0; phrase[i]; i++)
 	{
-		if (char_is_in(letters, phrase[i]))
+		if (bit_is_flipped(seen, phrase[i]))
 			return false;
 
-		letters[j++] = phrase[i];
+		seen = flip_bit(seen, phrase[i]);
 	}
-
 
 	return true;
 }
@@ -33,18 +34,19 @@ char *to_lower_case(const char *string)
 	int j = 0;
 	char *lower_cased = calloc(strlen(string), sizeof(char));
 
-	for(int i = 0; string[i]; i++)
+	for (int i = 0; string[i]; i++)
 		if (isalpha(string[i]))
   			lower_cased[j++] = tolower(string[i]);
 
   	return lower_cased;
 }
 
-bool char_is_in(char *string, char c)
+bool bit_is_flipped(int seen, char bit)
 {
-	for (int i = 0; string[i]; i++)
-		if (string[i] == c)
-			return true;
+	return seen > (seen ^ 1 << (bit - 97));
+}
 
-	return false;
+int flip_bit(int seen, char bit)
+{
+	return seen | 1 << (bit - 97);
 }
