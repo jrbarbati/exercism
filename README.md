@@ -24,4 +24,8 @@ What did I write?
 	<ul>
 		<li>All .c files in src/ folder and most .h files in src/ folder</li>
 	</ul>
+	<li>Java</li>
+	<ul>
+		<li>Any files int the src/main/ folder</li>
+	</ul>
 </ul>
