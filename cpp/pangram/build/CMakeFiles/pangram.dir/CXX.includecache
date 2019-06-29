@@ -9,7 +9,7 @@
 /Users/jxb4933/exercism/cpp/pangram/pangram.cpp
 pangram.h
 /Users/jxb4933/exercism/cpp/pangram/pangram.h
-set
+unordered_set
 -
 locale
 -

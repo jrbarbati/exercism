@@ -1,29 +1,26 @@
 #include "pangram.h"
-#include <set>
+#include <unordered_set>
 #include <locale>
 
-#ifndef NUM_OF_LETTERS_IN_ALPHABET
-#define NUM_OF_LETTERS_IN_ALPHABET 26
-#endif
+namespace pangram {
 
-using namespace std;
+const int NUM_OF_LETTERS_IN_ALPHABET = 26;
 
-set<char, greater<char>> letters(string input);
-
-bool pangram::is_pangram(string input)
+std::unordered_set<char> uniqueLetters(const std::string &input)
 {
-	set<char, greater<char>> uniqueLetters = letters(input);
-	return uniqueLetters.size() == NUM_OF_LETTERS_IN_ALPHABET;
-}
-
-set<char, greater<char>> letters(string input)
-{
-	locale loc;
-	set<char, greater<char>> uniqueLetters;
+	std::unordered_set<char> uniqueLetters;
 
 	for (auto elem : input)
 		if (isalpha(elem))
-			uniqueLetters.insert(tolower(elem, loc));
+			uniqueLetters.insert(tolower(elem, std::locale::classic()));
 
 	return uniqueLetters;
+}
+
+}
+
+bool pangram::is_pangram(const std::string input)
+{
+	std::unordered_set<char> uniqueLetters = pangram::uniqueLetters(input);
+	return uniqueLetters.size() == pangram::NUM_OF_LETTERS_IN_ALPHABET;
 }
