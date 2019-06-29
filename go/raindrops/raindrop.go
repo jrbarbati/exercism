@@ -20,7 +20,7 @@ func (raindrop Raindrop) speak() string {
 	word := ""
 
 	for _, key := range translation.sortedKeys() {
-		if raindrop.intValue() % key == 0 {
+		if raindrop.hasFactor(key) {
 			word += translation[key]
 		}
 	}
