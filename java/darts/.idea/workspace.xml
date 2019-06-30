@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba2e5deb-783a-43f4-9060-4854cb1964d7" name="Default Changelist" comment="" />
+    <list default="true" id="a92f91b8-22e4-4422-a8f3-0c5e2ba61b37" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../resistor-color/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../resistor-color/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -21,28 +23,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ResistorColor.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DartsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#60#61#0" expanded="true" />
-                <element signature="e#83#84#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="450">
+              <caret line="32" column="36" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ResistorColorTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Darts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+            <state relative-caret-position="645">
+              <caret line="43" column="83" selection-start-line="43" selection-start-column="83" selection-end-line="43" selection-end-column="83" />
               <folding>
-                <element signature="e#232#233#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#76#77#0" expanded="true" />
+                <element signature="e#106#107#0" expanded="true" />
+                <element signature="e#79#80#0" expanded="true" />
+                <element signature="e#102#103#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+                <element signature="e#644#645#0" expanded="true" />
+                <element signature="e#617#618#0" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#1075#1076#0" expanded="true" />
+                <element signature="e#1140#1141#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,8 +63,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/ResistorColorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ResistorColor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DartsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Darts.java" />
       </list>
     </option>
   </component>
@@ -79,40 +86,42 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="resistor-color" type="b2602c69:ProjectViewProjectNode" />
-              <item name="resistor-color" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="darts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="darts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="resistor-color" type="b2602c69:ProjectViewProjectNode" />
-              <item name="resistor-color" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="darts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="darts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="resistor-color" type="b2602c69:ProjectViewProjectNode" />
-              <item name="resistor-color" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="darts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="darts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="resistor-color" type="b2602c69:ProjectViewProjectNode" />
-              <item name="resistor-color" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="darts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="darts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="resistor-color" type="b2602c69:ProjectViewProjectNode" />
-              <item name="resistor-color" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="darts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="darts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="resistor-color" type="b2602c69:ProjectViewProjectNode" />
-              <item name="resistor-color" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="darts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="darts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -121,12 +130,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -158,10 +164,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResistorColorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="resistor-color.test" />
+    <configuration name="DartsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="darts.test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ResistorColorTest" />
+      <option name="MAIN_CLASS_NAME" value="DartsTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -186,7 +192,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ResistorColorTest" />
+        <item itemvalue="JUnit.DartsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -195,34 +201,31 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ba2e5deb-783a-43f4-9060-4854cb1964d7" name="Default Changelist" comment="" />
-      <created>1561832260204</created>
+      <changelist id="a92f91b8-22e4-4422-a8f3-0c5e2ba61b37" name="Default Changelist" comment="" />
+      <created>1561906972450</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1561832260204</updated>
-      <workItem from="1561832262716" duration="1355000" />
+      <updated>1561906972450</updated>
+      <workItem from="1561906973773" duration="1296000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ResistorColorTest - 2019.06.29 at 14h 22m 58s.xml">
-      <configuration name="ResistorColorTest" configurationId="JUnit" />
+    <history-entry file="DartsTest - 2019.06.30 at 11h 03m 58s.xml">
+      <configuration name="DartsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResistorColorTest - 2019.06.29 at 14h 24m 38s.xml">
-      <configuration name="ResistorColorTest" configurationId="JUnit" />
+    <history-entry file="DartsTest - 2019.06.30 at 11h 17m 03s.xml">
+      <configuration name="DartsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResistorColorTest - 2019.06.29 at 14h 25m 29s.xml">
-      <configuration name="ResistorColorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ResistorColorTest - 2019.06.29 at 14h 27m 57s.xml">
-      <configuration name="ResistorColorTest" configurationId="JUnit" />
+    <history-entry file="DartsTest - 2019.06.30 at 11h 17m 16s.xml">
+      <configuration name="DartsTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1355000" />
+    <option name="totallyTimeSpent" value="1296000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -236,12 +239,12 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32941177" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -262,25 +265,33 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/ResistorColorTest.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DartsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <folding>
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="450">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ResistorColor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Darts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        <state relative-caret-position="645">
+          <caret line="43" column="83" selection-start-line="43" selection-start-column="83" selection-end-line="43" selection-end-column="83" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#60#61#0" expanded="true" />
-            <element signature="e#83#84#0" expanded="true" />
+            <element signature="e#76#77#0" expanded="true" />
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#79#80#0" expanded="true" />
+            <element signature="e#102#103#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
           </folding>
         </state>
       </provider>
