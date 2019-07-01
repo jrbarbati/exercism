@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="218756c9-93a0-48e0-8bf2-1d63e8b972ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../c/word-count/src/word_count.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../c/word-count/src/word_count.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../darts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../darts/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="218756c9-93a0-48e0-8bf2-1d63e8b972ad" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -27,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/DnDCharacter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="82" column="58" selection-start-line="82" selection-start-column="58" selection-end-line="82" selection-end-column="58" />
+            <state relative-caret-position="445">
+              <caret line="83" column="25" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#102#103#0" expanded="true" />
@@ -163,6 +160,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -260,14 +258,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561992480279</updated>
-      <workItem from="1561992483414" duration="2593000" />
+      <workItem from="1561992483414" duration="2928000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DnDCharacterTest - 2019.07.01 at 11h 12m 53s.xml">
-      <configuration name="DnDCharacterTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DnDCharacterTest - 2019.07.01 at 11h 13m 19s.xml">
       <configuration name="DnDCharacterTest" configurationId="JUnit" />
     </history-entry>
@@ -295,23 +290,25 @@
     <history-entry file="DnDCharacterTest_testRandomCharacterIsValid - 2019.07.01 at 11h 21m 54s.xml">
       <configuration name="DnDCharacterTest.testRandomCharacterIsValid" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DnDCharacterTest - 2019.07.01 at 11h 34m 56s.xml">
+      <configuration name="DnDCharacterTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2593000" />
+    <option name="totallyTimeSpent" value="2928000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.32941177" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" />
@@ -320,7 +317,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -384,8 +381,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DnDCharacter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="82" column="58" selection-start-line="82" selection-start-column="58" selection-end-line="82" selection-end-column="58" />
+        <state relative-caret-position="445">
+          <caret line="83" column="25" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#102#103#0" expanded="true" />
