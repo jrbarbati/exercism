@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a92f91b8-22e4-4422-a8f3-0c5e2ba61b37" name="Default Changelist" comment="">
+    <list default="true" id="16985070-18de-429e-aeb7-d25ec25a9e76" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../c/word-count/src/word_count.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../c/word-count/src/word_count.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../darts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../darts/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -23,34 +24,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DartsTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ProteinTranslator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="32" column="36" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="36" />
+            <state relative-caret-position="135">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#669#670#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Darts.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ProteinTranslatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="83" selection-start-line="43" selection-start-column="83" selection-end-line="43" selection-end-column="83" />
-              <folding>
-                <element signature="e#76#77#0" expanded="true" />
-                <element signature="e#106#107#0" expanded="true" />
-                <element signature="e#79#80#0" expanded="true" />
-                <element signature="e#102#103#0" expanded="true" />
-                <element signature="e#616#617#0" expanded="true" />
-                <element signature="e#644#645#0" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
-                <element signature="e#645#646#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-                <element signature="e#646#647#0" expanded="true" />
-                <element signature="e#1075#1076#0" expanded="true" />
-                <element signature="e#1140#1141#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="2145">
+              <caret line="153" column="43" selection-start-line="153" selection-start-column="43" selection-end-line="153" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -63,8 +55,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/DartsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Darts.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ProteinTranslatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ProteinTranslator.java" />
       </list>
     </option>
   </component>
@@ -75,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="53" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
@@ -92,36 +84,36 @@
         <subPane>
           <expand>
             <path>
-              <item name="darts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="darts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="protein-translation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="protein-translation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="darts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="darts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="protein-translation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="protein-translation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="darts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="darts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="protein-translation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="protein-translation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="darts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="darts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="protein-translation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="protein-translation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="darts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="darts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="protein-translation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="protein-translation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="darts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="darts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="protein-translation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="protein-translation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -133,7 +125,6 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -165,10 +156,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DartsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="darts.test" />
+    <configuration name="ProteinTranslatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="protein-translation.test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DartsTest" />
+      <option name="MAIN_CLASS_NAME" value="ProteinTranslatorTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -193,7 +184,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DartsTest" />
+        <item itemvalue="JUnit.ProteinTranslatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -202,31 +193,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a92f91b8-22e4-4422-a8f3-0c5e2ba61b37" name="Default Changelist" comment="" />
-      <created>1561906972450</created>
+      <changelist id="16985070-18de-429e-aeb7-d25ec25a9e76" name="Default Changelist" comment="" />
+      <created>1561909332960</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1561906972450</updated>
-      <workItem from="1561906973773" duration="1684000" />
+      <updated>1561909332960</updated>
+      <workItem from="1561909334179" duration="1139000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DartsTest - 2019.06.30 at 11h 03m 58s.xml">
-      <configuration name="DartsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DartsTest - 2019.06.30 at 11h 17m 03s.xml">
-      <configuration name="DartsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DartsTest - 2019.06.30 at 11h 17m 16s.xml">
-      <configuration name="DartsTest" configurationId="JUnit" />
+    <history-entry file="ProteinTranslatorTest - 2019.06.30 at 11h 58m 05s.xml">
+      <configuration name="ProteinTranslatorTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1684000" />
+    <option name="totallyTimeSpent" value="1139000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -266,33 +251,21 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DartsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ProteinTranslatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="36" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="36" />
+        <state relative-caret-position="2145">
+          <caret line="153" column="43" selection-start-line="153" selection-start-column="43" selection-end-line="153" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Darts.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ProteinTranslator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="83" selection-start-line="43" selection-start-column="83" selection-end-line="43" selection-end-column="83" />
+        <state relative-caret-position="135">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding>
-            <element signature="e#76#77#0" expanded="true" />
-            <element signature="e#106#107#0" expanded="true" />
-            <element signature="e#79#80#0" expanded="true" />
-            <element signature="e#102#103#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
           </folding>
         </state>
       </provider>
