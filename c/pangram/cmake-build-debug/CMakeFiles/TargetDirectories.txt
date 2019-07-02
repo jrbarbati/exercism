@@ -1,0 +1,3 @@
+/Users/jxb4933/exercism/c/pangram/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/jxb4933/exercism/c/pangram/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jxb4933/exercism/c/pangram/cmake-build-debug/CMakeFiles/pangram.dir

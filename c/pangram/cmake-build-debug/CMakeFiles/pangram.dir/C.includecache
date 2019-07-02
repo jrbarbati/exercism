@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jxb4933/exercism/c/pangram/src/pangram.c
+pangram.h
+/Users/jxb4933/exercism/c/pangram/src/pangram.h
+stdlib.h
+-
+string.h
+-
+ctype.h
+-
+
+/Users/jxb4933/exercism/c/pangram/src/pangram.h
+stdbool.h
+-
+

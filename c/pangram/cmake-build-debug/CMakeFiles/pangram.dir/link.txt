@@ -1,0 +1,1 @@
+/usr/bin/gcc -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/pangram.dir/src/pangram.c.o CMakeFiles/pangram.dir/test/vendor/unity.c.o CMakeFiles/pangram.dir/test/test_pangram.c.o  -o pangram 

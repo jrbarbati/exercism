@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jxb4933/exercism/c/word-count/src/word_count.c
+word_count.h
+/Users/jxb4933/exercism/c/word-count/src/word_count.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+ctype.h
+-
+stdbool.h
+-
+
+/Users/jxb4933/exercism/c/word-count/src/word_count.h
+
