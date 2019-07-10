@@ -1,6 +1,6 @@
 import Foundation
 
-class Gigasecond
+struct Gigasecond
 {
     var time: Date
     let formatter = DateFormatter()
@@ -8,6 +8,7 @@ class Gigasecond
     
     init?(from time: String)
     {
+        self.formatter.timeZone = TimeZone(secondsFromGMT: 0)
         self.formatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
         
         guard let date = self.formatter.date(from: time) else {
