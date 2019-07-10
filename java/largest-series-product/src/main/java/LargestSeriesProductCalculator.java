@@ -49,7 +49,8 @@ class LargestSeriesProductCalculator
         return currMax;
     }
 
-    private long multiply(String digits) {
+    private long multiply(String digits)
+    {
         return digits.chars().mapToObj(c -> String.valueOf((char) c)).mapToInt(Integer::parseInt).reduce((i, j) -> i * j).orElse(1);
     }
 }
