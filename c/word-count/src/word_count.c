@@ -1,13 +1,12 @@
 #include "word_count.h"
-#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
 #include <stdbool.h>
 
-char *delimit_string(const char *input_text, const char delimiter);
+void delimit_string(const char *input_text, char *cleaned_input, const char delimiter);
 
-char *to_lower_case(char *string);
+void to_lower_case(char *string);
 
 int find_word(char *cleaned_input, char *word, int start_index);
 
@@ -22,7 +21,11 @@ const char DELIMITER = '\t';
 int word_count(const char *input_text, word_count_word_t *words)
 {
     int curr_index = 0, word_count = 0;
-    char *cleaned_input = to_lower_case(delimit_string(input_text, DELIMITER));
+
+    char *cleaned_input = calloc(1001, sizeof(char));
+    delimit_string(input_text, cleaned_input, DELIMITER);
+    to_lower_case(cleaned_input);
+
     words = zero_out(words);
 
     for (int i = 0; ; i++)
@@ -35,7 +38,11 @@ int word_count(const char *input_text, word_count_word_t *words)
             break;
 
         if (curr_index == -1)
-            return -1;
+        {
+            word_count = -1;
+            free(word);
+            break;
+        }
 
         word_count = add_word_to(words, word_count, word);
         free(word);
@@ -51,21 +58,18 @@ int word_count(const char *input_text, word_count_word_t *words)
  * (except single quotes.)
  * This is to make separating the words from the "main string" easier.
  */
-char *delimit_string(const char *input_text, const char delimiter)
+void delimit_string(const char *input_text, char* cleaned_input, const char delimiter)
 {
     int i, j = 0;
-    char *delimited_string = calloc(1000, sizeof(char));
 
     for (i = 0; input_text[i]; i++)
     {
         if (isalnum(input_text[i]) || is_contraction(input_text, i))
-            delimited_string[j++] = input_text[i];
+            cleaned_input[j++] = input_text[i];
 
         else if (isalnum(input_text[i - 1]) && !isalnum(input_text[i]))
-            delimited_string[j++] = delimiter;
+            cleaned_input[j++] = delimiter;
     }
-
-    return delimited_string;
 }
 
 bool is_contraction(const char *input_text, int i)
@@ -79,15 +83,12 @@ bool is_contraction(const char *input_text, int i)
 /*
  * Lower-cases all alpha chars
  */
-char *to_lower_case(char *string)
+void to_lower_case(char *string)
 {
     for (int i = 0; string[i]; i++)
         if (isalpha(string[i]))
             string[i] = tolower(string[i]);
-
-    return string;
 }
-
 /*
  * Since words is reused in the tests, we should clean it out and re-zero
  * all the values
