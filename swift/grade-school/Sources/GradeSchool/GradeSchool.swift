@@ -1,38 +1,20 @@
 class GradeSchool {
     
-    var roster: Dictionary<Int, [String]>
+    var roster: [Int: [String]]
     
-    var sortedRoster: Dictionary<Int, [String]> {
-        var sorted = Dictionary<Int, [String]>()
-        
-        for grade in self.roster.keys {
-            if let students = self.roster[grade] {
-                sorted[grade] = students.sorted()
-            }
-        }
-        
-        return sorted
+    var sortedRoster: [Int: [String]] {
+        return self.roster.mapValues { $0.sorted() }
     }
     
     init() {
-        self.roster = Dictionary()
+        self.roster = [:]
     }
     
     func addStudent(_ name: String, grade: Int) {
-        if let _ = self.roster[grade] {
-            self.roster[grade]?.append(name)
-            return
-        }
-        
-        self.roster[grade] = [String]()
-        self.addStudent(name, grade: grade)
+        self.roster[grade, default: []].append(name)
     }
     
     func studentsInGrade(_ grade: Int) -> [String] {
-        guard let students = self.roster[grade] else {
-            return []
-        }
-        
-        return students
+        return self.roster[grade, default: []]
     }
 }
