@@ -1,4 +1,4 @@
-// Package isogram implements methods regarding isograms.
+// Package isogram provides string functions for isograms
 package isogram
 
 import (
@@ -6,16 +6,15 @@ import (
 	"unicode"
 )
 
-// IsIsogram checks if a word has any repeated characters, if so returns false
-// if there are not repeated characters, returns true,
+// IsIsogram checks if a candidate string has no repeating characters.
 func IsIsogram(candidate string) bool {
-	seen_chars := map[rune]interface{}{}
+	seenChars := map[rune]bool{}
 
 	for _, char := range strings.ToLower(candidate) {
-		if _, ok := seen_chars[char]; ok {
+		if seenChars[char] {
 			return false
 		} else if unicode.IsLetter(char) {
-			seen_chars[char] = ""
+			seenChars[char] = true
 		}
 	}
 
