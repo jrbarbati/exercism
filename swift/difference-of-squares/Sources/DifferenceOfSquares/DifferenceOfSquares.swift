@@ -1,34 +1,19 @@
 import Foundation
 
-struct Squares
-{
+struct Squares {
+    
     let num: Int
     
-    init(_ num: Int)
-    {
+    init(_ num: Int) {
         self.num = num
     }
     
     var squareOfSum: Int {
-        var sum = 0
-        
-        for n in 1 ... self.num
-        {
-            sum += n
-        }
-        
-        return Int(pow(Double(sum), 2.0))
+        return Int(pow(Double((0 ... self.num).reduce(0, +)), 2.0))
     }
     
     var sumOfSquares: Int {
-        var sum = 0
-        
-        for n in 1 ... self.num
-        {
-            sum += Int(pow(Double(n), 2.0))
-        }
-        
-        return sum
+        return (1 ... self.num).map { Int(pow(Double($0), 2.0)) }.reduce(0, +)
     }
     
     var differenceOfSquares: Int {
