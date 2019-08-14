@@ -11,13 +11,9 @@ struct Scrabble {
     }
     
     static func score(_ word: String) -> Int {
-        var score = 0
-        
-        for letter in word.uppercased() {
-            score += SCRABBLE_SCORES[letter] ?? 0
-        }
-        
-        return score
+        return word.uppercased().reduce(0, {
+            return $0 + (SCRABBLE_SCORES[$1] ?? 0)
+        })
     }
     
     static let SCRABBLE_SCORES: [Character:Int] = [
