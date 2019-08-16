@@ -27,8 +27,8 @@ func calculateSquareSize(lengthOfString int) (rows, cols int) {
 	rows = 1
 	cols = 1
 
-	for rows * cols < lengthOfString {
-		if cols - rows == 1 {
+	for rows*cols < lengthOfString {
+		if cols-rows == 1 {
 			rows++
 		} else {
 			cols++
@@ -43,8 +43,8 @@ func toSquare(input []rune, rows, cols int) [][]rune {
 
 	for i := 0; i < rows; i++ {
 		for j := 0; j < cols; j++ {
-			if i * cols + j < len(input) {
-				square[i][j] = input[i * cols + j]
+			if i*cols+j < len(input) {
+				square[i][j] = input[i*cols+j]
 			} else {
 				square[i][j] = ' '
 			}
