@@ -8,12 +8,12 @@ struct Nucleotide {
     }
     
     func complementOfDNA() throws -> String {
-        return try self.dna.reduce("", {
-            guard let rnaNucleotide = RNA_TRANSCRIPTION[$1] else {
-                throw TranscriptionError.invalidNucleotide("\($1) is not a valid Nucleotide")
+        return try self.dna.reduce("", { (rnaStrand, char) throws -> String in
+            guard let rnaNucleotide = RNA_TRANSCRIPTION[char] else {
+                throw TranscriptionError.invalidNucleotide("\(char) is not a valid Nucleotide")
             }
             
-            return $0 + rnaNucleotide
+            return rnaStrand + rnaNucleotide
         })
     }
 }
