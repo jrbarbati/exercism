@@ -70,7 +70,7 @@ class space_age
 			return age_in_seconds;
 		}
 	private:
-		float convert(std::string planet) const
+		float convert(const std::string planet) const
 		{
 			return age_in_seconds / orbital_period.at(planet);
 		}

@@ -10,12 +10,7 @@ inline unsigned long long square(int space)
 
 inline unsigned long long total()
 {
-	unsigned long long total  = 0;
-
-	for(int i = 1; i <= 64; i++)
-		total = total | square(i);
-
-	return total;
+	return 0xFFFFFFFFFFFFFFFF;
 }
 
 }

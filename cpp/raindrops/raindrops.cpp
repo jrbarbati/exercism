@@ -1,14 +1,18 @@
 #include "raindrops.h"
+#include <map>
 
-using namespace std;
+const std::map<int, std::string> drops{
+	{3, "Pling"},
+	{5, "Plang"},
+	{7, "Plong"}
+};
 
-string raindrops::convert(int rain)
+std::string raindrops::convert(int rain)
 {
-	string speak = "";
+	std::string speak;
 
-	speak += rain % 3 == 0 ? "Pling" : "";
-	speak += rain % 5 == 0 ? "Plang" : "";
-	speak += rain % 7 == 0 ? "Plong" : "";
+	for (auto itr = drops.begin(); itr != drops.end(); itr++)
+		speak += rain % itr->first == 0 ? itr->second : "";
 
-	return speak.size() > 0 ? speak : to_string(rain);
+	return !speak.empty() ? speak : std::to_string(rain);
 }

@@ -19,7 +19,7 @@ std::unordered_set<char> uniqueLetters(const std::string &input)
 
 }
 
-bool pangram::is_pangram(const std::string input)
+bool pangram::is_pangram(const std::string &input)
 {
 	std::unordered_set<char> uniqueLetters = pangram::uniqueLetters(input);
 	return uniqueLetters.size() == pangram::NUM_OF_LETTERS_IN_ALPHABET;

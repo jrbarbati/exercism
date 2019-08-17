@@ -7,5 +7,5 @@ uint64_t square(uint8_t index)
 
 uint64_t total(void)
 {
-	return (uint64_t) 0 - 1;
+	return 0xFFFFFFFFFFFFFFFF;
 }
