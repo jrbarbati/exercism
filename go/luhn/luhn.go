@@ -2,64 +2,54 @@
 package luhn
 
 import (
-	"regexp"
-	"strconv"
 	"strings"
+	"unicode"
 )
 
 // Valid validates the input number is a valid luhn number.
 func Valid(input string) bool {
-	return validate(clean(input))
-}
+	input = removeSpaces(input)
 
-func clean(input string) string {
-	return strings.ReplaceAll(input, " ", "")
-}
-
-func validate(input string) bool {
 	if len(input) < 2 {
-		return false
-	}
-
-	if containsNonNumbers(input) {
 		return false
 	}
 
 	return validLuhnNumber(input)
 }
 
-func containsNonNumbers(input string) bool {
-	return regexp.MustCompile(`[^0-9]+`).MatchString(input)
+func removeSpaces(input string) string {
+	return strings.ReplaceAll(input, " ", "")
 }
 
 func validLuhnNumber(number string) bool {
-	return sumOfDigits(reverse(doubleEveryOtherNumber(reverse(number))))%10 == 0
-}
+	sum := 0
 
-func reverse(s string) string {
-	runes := []rune(s)
+	for i, digit := range number {
+		if !unicode.IsDigit(digit) {
+			return false
+		}
 
-	for i, j := 0, len(runes)-1; i < j; i, j = i+1, j-1 {
-		runes[i], runes[j] = runes[j], runes[i]
-	}
-
-	return string(runes)
-}
-
-func doubleEveryOtherNumber(number string) string {
-	doubled := ""
-
-	for i := range number {
-		digit, _ := strconv.Atoi(number[i : i+1])
-
-		if i%2 == 1 {
-			doubled += strconv.Itoa(double(digit))
+		num := int(digit - '0')
+		if shouldDouble(i, len(number)) {
+			sum += double(num)
 		} else {
-			doubled += strconv.Itoa(digit)
+			sum += num
 		}
 	}
 
-	return doubled
+	return sum%10 == 0
+}
+
+func shouldDouble(currIndex, totalLength int) bool {
+	if totalLength%2 == 1 && currIndex%2 == 1 {
+		return true
+	}
+
+	if totalLength%2 == 0 && currIndex%2 == 0 {
+		return true
+	}
+
+	return false
 }
 
 func double(digit int) (doubled int) {
@@ -70,15 +60,4 @@ func double(digit int) (doubled int) {
 	}
 
 	return
-}
-
-func sumOfDigits(digits string) int {
-	sum := 0
-
-	for i := range digits {
-		num, _ := strconv.Atoi(digits[i : i+1])
-		sum += num
-	}
-
-	return sum
 }
