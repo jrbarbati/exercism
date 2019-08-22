@@ -1,0 +1,4 @@
+/Users/jxb4933/exercism/cpp/collatz-conjecture/build/CMakeFiles/rebuild_cache.dir
+/Users/jxb4933/exercism/cpp/collatz-conjecture/build/CMakeFiles/edit_cache.dir
+/Users/jxb4933/exercism/cpp/collatz-conjecture/build/CMakeFiles/test_collatz-conjecture.dir
+/Users/jxb4933/exercism/cpp/collatz-conjecture/build/CMakeFiles/collatz-conjecture.dir
