@@ -1,7 +1,7 @@
 struct Nucleotide {
     
     let dna: String
-    let RNA_TRANSCRIPTION: [Character : String] = ["A": "U", "T": "A", "C": "G", "G": "C"]
+    static let rnaTranscription: [Character : String] = ["A": "U", "T": "A", "C": "G", "G": "C"]
     
     init(_ dna: String) {
         self.dna = dna
@@ -9,7 +9,7 @@ struct Nucleotide {
     
     func complementOfDNA() throws -> String {
         return try self.dna.reduce("", { (rnaStrand, char) throws -> String in
-            guard let rnaNucleotide = RNA_TRANSCRIPTION[char] else {
+            guard let rnaNucleotide = Nucleotide.rnaTranscription[char] else {
                 throw TranscriptionError.invalidNucleotide("\(char) is not a valid Nucleotide")
             }
             
