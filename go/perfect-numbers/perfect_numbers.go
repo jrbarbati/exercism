@@ -1,10 +1,12 @@
 // Package perfect contains methods for determining whether a number if perfect, abundant, or deficient.
 package perfect
 
-import "errors"
+import (
+	"errors"
+)
 
 // ErrOnlyPositive is the only error that can be returned from Classify().
-var ErrOnlyPositive error = errors.New("Number has to be non-negative")
+var ErrOnlyPositive = errors.New("Number has to be non-negative")
 
 // Classification is the parent type to the Classifications
 type Classification string
@@ -24,11 +26,7 @@ func Classify(number int64) (Classification, error) {
 		return "", ErrOnlyPositive
 	}
 
-	var sumOfMultiples int64
-
-	for _, multiple := range findMultiplesOf(number) {
-		sumOfMultiples += multiple
-	}
+	var sumOfMultiples = calculateSumOfMultiples(number)
 
 	if sumOfMultiples < number {
 		return ClassificationDeficient, nil
@@ -39,13 +37,24 @@ func Classify(number int64) (Classification, error) {
 	}
 }
 
+func calculateSumOfMultiples(number int64) int64 {
+	var sumOfMultiples int64
+	
+	for _, multiple := range findMultiplesOf(number) {
+		sumOfMultiples += multiple
+	}
+
+	return sumOfMultiples - number
+}
+
 func findMultiplesOf(number int64) []int64 {
 	var i int64
 	multiples := make([]int64, 0)
 
-	for i = 1; i <= number/2; i++ {
+	for i = 1; i*i < number; i++ {
 		if number%i == 0 {
 			multiples = append(multiples, i)
+			multiples = append(multiples, number/i)
 		}
 	}
 
