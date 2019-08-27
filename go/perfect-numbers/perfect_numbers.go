@@ -21,20 +21,27 @@ var ClassificationDeficient Classification = "ClassificationDeficient"
 var ClassificationPerfect Classification = "ClassificationPerfect"
 
 // Classify determines the correct classification for the input number.
-func Classify(number int64) (Classification, error) {
+func Classify(number int64) (classifcation Classification, error error) {
+	classifcation = ""
+	error = ErrOnlyPositive
+
 	if number <= 0 {
-		return "", ErrOnlyPositive
+		return
 	}
 
 	var sumOfMultiples = calculateSumOfMultiples(number)
+	error = nil
 
-	if sumOfMultiples < number {
-		return ClassificationDeficient, nil
-	} else if sumOfMultiples == number {
-		return ClassificationPerfect, nil
-	} else {
-		return ClassificationAbundant, nil
+	switch {
+	case sumOfMultiples < number:
+		classifcation = ClassificationDeficient
+	case sumOfMultiples == number:
+		classifcation = ClassificationPerfect
+	default:
+		classifcation = ClassificationAbundant
 	}
+
+	return
 }
 
 func calculateSumOfMultiples(number int64) int64 {
