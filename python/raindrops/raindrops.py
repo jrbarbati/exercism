@@ -8,4 +8,4 @@ conversions = {
 def convert(number: int) -> str:
 	conversion = "".join([value for key, value in conversions.items() if number % key == 0])
 
-	return conversion if conversion is not "" else str(number)
+	return conversion or str(number)
