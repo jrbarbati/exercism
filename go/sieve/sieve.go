@@ -43,7 +43,7 @@ func markAllMultiplesOf(value, limit int) {
 
 func flipBit(value int) {
 	mask := calculateMask(value)
-	bits[mask.index] = bits[mask.index] | (1 << mask.mask)
+	bits[mask.index] |= (1 << mask.mask)
 }
 
 func calculateMask(value int) mask {
