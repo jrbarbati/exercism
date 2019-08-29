@@ -5,13 +5,13 @@
 
 int isArmstrongNumber(int number)
 {
-	int sum = 0, armstrong_value = number;
+	int sum = 0, armstrong_value = number, exp = strlen(digits);
 	char digits[100];
 	sprintf(digits, "%d", number);
 
 	while (number != 0)
 	{
-		sum += pow(number%10, strlen(digits));
+		sum += pow(number%10, exp);
 		number /= 10;
 	}
 
