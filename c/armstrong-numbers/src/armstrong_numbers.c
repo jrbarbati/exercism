@@ -5,9 +5,10 @@
 
 int isArmstrongNumber(int number)
 {
-	int sum = 0, armstrong_value = number, exp = strlen(digits);
+	int sum = 0, armstrong_value = number, exp;
 	char digits[100];
 	sprintf(digits, "%d", number);
+	exp = strlen(digits);
 
 	while (number != 0)
 	{
