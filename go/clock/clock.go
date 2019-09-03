@@ -1,38 +1,36 @@
-// Package clock contains methods for clock struct creation/manipulation.
+// Package clock contains methods for clock type creation/manipulation.
 package clock
 
 import "fmt"
 
-// Clock struct holds the time of day.
-type Clock struct {
-	minutes int
-}
+const minutesPerDay = 1440;
+
+// Clock type holds the time of day.
+type Clock int
 
 // New creates a new clock with the given time.
 func New(hours, minutes int) Clock {
-	mins := (hours*60 + minutes) % 1440
+	minutes = (hours*60 + minutes) % minutesPerDay
 
-	for mins < 0 || 1440 < mins {
-		if mins < 0 {
-			mins += 1440
-		}
-
-		if mins > 1440 {
-			mins -= 1440
-		}
+	for minutes < 0 {
+		minutes += minutesPerDay
 	}
 
-	return Clock{mins}
+	for minutes > minutesPerDay {
+		minutes -= minutesPerDay
+	}
+
+	return Clock(minutes)
 }
 
 // String returns a string representatoin of the clock.
 func (clock Clock) String() string {
-	return fmt.Sprintf("%02v:%02v", (clock.minutes/60)%24, clock.minutes%60)
+	return fmt.Sprintf("%02v:%02v", int(clock)/60, int(clock)%60)
 }
 
 // Add increases the current time of the clock by the number of minutes.
 func (clock Clock) Add(minutes int) Clock {
-	return New(0, clock.minutes+minutes)
+	return New(0, int(clock)+minutes)
 }
 
 // Subtract reduces the current time of the clock by the number of minutes.
