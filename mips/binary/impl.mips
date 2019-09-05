@@ -1,19 +1,8 @@
 .globl binary_convert
 
-.data
-
 .text
 
-str_len:
-	move $v1, 0 # starting length of string
-	move $t0, $a0 # moving start of string to t0
-str_len_start:
-	beq  $t0, $zero, binary_convert_start
-	addi $t0, $t0, 1
-
 binary_convert:
-	j str_len
-binary_convert_start:
 	move $v0, 0 # our result is initialized to 0
 	move $t7, 0 # t7 will be where our counter is stored
 	

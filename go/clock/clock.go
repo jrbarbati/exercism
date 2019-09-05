@@ -3,7 +3,7 @@ package clock
 
 import "fmt"
 
-const minutesPerDay = 1440;
+const minutesPerDay = 1440
 
 // Clock type holds the time of day.
 type Clock int
@@ -12,13 +12,8 @@ type Clock int
 func New(hours, minutes int) Clock {
 	minutes = (hours*60 + minutes) % minutesPerDay
 
-	for minutes < 0 {
-		minutes += minutesPerDay
-	}
-
-	for minutes > minutesPerDay {
-		minutes -= minutesPerDay
-	}
+	minutes += minutesPerDay
+	minutes %= minutesPerDay
 
 	return Clock(minutes)
 }
