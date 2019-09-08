@@ -2,18 +2,12 @@
 
 unsigned int sum_of_squares(unsigned int number)
 {
-	unsigned int sum = 0, i;
-	for (i = 1; i <= number; i++)
-		sum += (i * i);
-
-	return sum;
+	return (number * (number + 1) * (2 * number + 1)) / 6;
 }
 
 unsigned int square_of_sum(unsigned int number)
 {
-	unsigned int sum = 0, i;
-	for (i = 1; i <= number; i++)
-		sum += i;
+	unsigned int sum = (number * (number + 1)) / 2;
 
 	return sum * sum;
 }
