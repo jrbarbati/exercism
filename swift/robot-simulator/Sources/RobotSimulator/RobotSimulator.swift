@@ -34,19 +34,13 @@ class SimulatedRobot {
     }
     
     func instructions(_ instructionsAsString: String) -> [SimulatedRobot.Instruction] {
-        var instructions = [SimulatedRobot.Instruction]()
-        
-        for char in instructionsAsString {
-            instructions.append(SimulatedRobot.Instruction(rawValue: char) ?? .advance)
-        }
-        
-        return instructions
+        return instructionsAsString.reduce([], {instructions, instruction in
+            return instructions + [SimulatedRobot.Instruction(rawValue: instruction)!]
+        })
     }
     
     func evaluate(_ instructions: String) {
-        for instruction in self.instructions(instructions) {
-            instruction.perform(on: self)
-        }
+        self.instructions(instructions).forEach({instruction in instruction.perform(on: self)})
     }
     
     enum Bearing {
