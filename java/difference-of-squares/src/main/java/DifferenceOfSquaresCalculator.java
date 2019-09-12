@@ -4,13 +4,13 @@ class DifferenceOfSquaresCalculator
 {
     int computeSquareOfSumTo(int input)
     {
-        int sum = IntStream.rangeClosed(0, input).sum();
+        int sum = (input * (input + 1)) / 2;
         return sum * sum;
     }
 
     int computeSumOfSquaresTo(int input)
     {
-        return IntStream.rangeClosed(0, input).map(i -> i * i).sum();
+        return (input * (2 * input + 1) * (input + 1)) / 6;
     }
 
     int computeDifferenceOfSquares(int input)

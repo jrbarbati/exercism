@@ -3,6 +3,6 @@
 .text
 
 binary_convert:
-	move $v0, 0 # our result is initialized to 0
-	move $t7, 0 # t7 will be where our counter is stored
+	move $v0, 0 # result
+	move $t7, 0 # counter
 	
