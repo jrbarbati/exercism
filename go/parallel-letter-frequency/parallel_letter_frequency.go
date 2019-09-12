@@ -21,10 +21,10 @@ func countFrequency(text string, channel chan FreqMap) {
 	channel <- Frequency(text)
 }
 
-func combine(mainFreqMap, otherFreqMap FreqMap) FreqMap {
-	for key, value := range otherFreqMap {
-		mainFreqMap[key] += value
+func combine(main, other FreqMap) FreqMap {
+	for key, value := range other {
+		main[key] += value
 	}
 
-	return mainFreqMap
+	return main
 }
