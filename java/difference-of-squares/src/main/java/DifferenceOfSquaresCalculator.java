@@ -1,5 +1,3 @@
-import java.util.stream.IntStream;
-
 class DifferenceOfSquaresCalculator
 {
     int computeSquareOfSumTo(int input)
