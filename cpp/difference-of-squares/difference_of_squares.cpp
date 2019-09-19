@@ -1,6 +1,6 @@
 #include "difference_of_squares.h"
 
-int squares::square_of_sum(int num)
+int difference_of_squares::square_of_sum(int num)
 {
 	int sum = 0;
 
@@ -10,7 +10,7 @@ int squares::square_of_sum(int num)
 	return sum * sum;
 }
 
-int squares::sum_of_squares(int num)
+int difference_of_squares::sum_of_squares(int num)
 {
 	int sum = 0;
 
@@ -20,7 +20,7 @@ int squares::sum_of_squares(int num)
 	return sum;
 }
 
-int squares::difference(int num) 
+int difference_of_squares::difference(int num) 
 {
 	return square_of_sum(num) - sum_of_squares(num);
 }

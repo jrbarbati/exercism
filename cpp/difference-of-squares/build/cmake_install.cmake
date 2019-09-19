@@ -1,4 +1,4 @@
-# Install script for directory: /Users/jxb4933/go/src/exercism/cpp/difference-of-squares
+# Install script for directory: /Users/jxb4933/exercism/cpp/difference-of-squares
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/jxb4933/go/src/exercism/cpp/difference-of-squares/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/jxb4933/exercism/cpp/difference-of-squares/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

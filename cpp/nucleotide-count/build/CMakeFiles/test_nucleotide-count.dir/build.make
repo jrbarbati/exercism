@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.11.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jxb4933/go/src/exercism/cpp/nucleotide-count
+CMAKE_SOURCE_DIR = /Users/jxb4933/exercism/cpp/nucleotide-count
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jxb4933/go/src/exercism/cpp/nucleotide-count/build
+CMAKE_BINARY_DIR = /Users/jxb4933/exercism/cpp/nucleotide-count/build
 
 # Utility rule file for test_nucleotide-count.
 
@@ -71,6 +71,6 @@ CMakeFiles/test_nucleotide-count.dir/clean:
 .PHONY : CMakeFiles/test_nucleotide-count.dir/clean
 
 CMakeFiles/test_nucleotide-count.dir/depend:
-	cd /Users/jxb4933/go/src/exercism/cpp/nucleotide-count/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jxb4933/go/src/exercism/cpp/nucleotide-count /Users/jxb4933/go/src/exercism/cpp/nucleotide-count /Users/jxb4933/go/src/exercism/cpp/nucleotide-count/build /Users/jxb4933/go/src/exercism/cpp/nucleotide-count/build /Users/jxb4933/go/src/exercism/cpp/nucleotide-count/build/CMakeFiles/test_nucleotide-count.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/jxb4933/exercism/cpp/nucleotide-count/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jxb4933/exercism/cpp/nucleotide-count /Users/jxb4933/exercism/cpp/nucleotide-count /Users/jxb4933/exercism/cpp/nucleotide-count/build /Users/jxb4933/exercism/cpp/nucleotide-count/build /Users/jxb4933/exercism/cpp/nucleotide-count/build/CMakeFiles/test_nucleotide-count.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test_nucleotide-count.dir/depend
 

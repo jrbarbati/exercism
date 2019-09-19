@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.11.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jxb4933/go/src/exercism/cpp/nucleotide-count
+CMAKE_SOURCE_DIR = /Users/jxb4933/exercism/cpp/nucleotide-count
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jxb4933/go/src/exercism/cpp/nucleotide-count/build
+CMAKE_BINARY_DIR = /Users/jxb4933/exercism/cpp/nucleotide-count/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jxb4933/go/src/exercism/cpp/nucleotide-count/build/CMakeFiles /Users/jxb4933/go/src/exercism/cpp/nucleotide-count/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jxb4933/exercism/cpp/nucleotide-count/build/CMakeFiles /Users/jxb4933/exercism/cpp/nucleotide-count/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jxb4933/go/src/exercism/cpp/nucleotide-count/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jxb4933/exercism/cpp/nucleotide-count/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

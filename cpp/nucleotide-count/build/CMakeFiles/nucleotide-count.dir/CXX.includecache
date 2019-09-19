@@ -6,25 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/Users/jxb4933/go/src/exercism/cpp/nucleotide-count/nucleotide_count.cpp
+/Users/jxb4933/exercism/cpp/nucleotide-count/nucleotide_count.cpp
+nucleotide_count.h
+/Users/jxb4933/exercism/cpp/nucleotide-count/nucleotide_count.h
 
-/Users/jxb4933/go/src/exercism/cpp/nucleotide-count/nucleotide_count.h
+/Users/jxb4933/exercism/cpp/nucleotide-count/nucleotide_count.h
 map
 -
 string
 -
 
-/Users/jxb4933/go/src/exercism/cpp/nucleotide-count/nucleotide_count_test.cpp
+/Users/jxb4933/exercism/cpp/nucleotide-count/nucleotide_count_test.cpp
 nucleotide_count.h
-/Users/jxb4933/go/src/exercism/cpp/nucleotide-count/nucleotide_count.h
+/Users/jxb4933/exercism/cpp/nucleotide-count/nucleotide_count.h
 test/catch.hpp
-/Users/jxb4933/go/src/exercism/cpp/nucleotide-count/test/catch.hpp
+/Users/jxb4933/exercism/cpp/nucleotide-count/test/catch.hpp
 map
 -
 stdexcept
 -
 
-/Users/jxb4933/go/src/exercism/cpp/nucleotide-count/test/catch.hpp
+/Users/jxb4933/exercism/cpp/nucleotide-count/test/catch.hpp
 TargetConditionals.h
 -
 ciso646
@@ -290,7 +292,7 @@ string
 memory
 -
 Foundation/Foundation.h
-/Users/jxb4933/go/src/exercism/cpp/nucleotide-count/test/Foundation/Foundation.h
+/Users/jxb4933/exercism/cpp/nucleotide-count/test/Foundation/Foundation.h
 algorithm
 -
 random
@@ -474,7 +476,7 @@ algorithm
 cassert
 -
 
-/Users/jxb4933/go/src/exercism/cpp/nucleotide-count/test/tests-main.cpp
+/Users/jxb4933/exercism/cpp/nucleotide-count/test/tests-main.cpp
 catch.hpp
-/Users/jxb4933/go/src/exercism/cpp/nucleotide-count/test/catch.hpp
+/Users/jxb4933/exercism/cpp/nucleotide-count/test/catch.hpp
 

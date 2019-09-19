@@ -1,4 +1,4 @@
-# Install script for directory: /Users/jxb4933/go/src/exercism/cpp/nucleotide-count
+# Install script for directory: /Users/jxb4933/exercism/cpp/nucleotide-count
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/jxb4933/go/src/exercism/cpp/nucleotide-count/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/jxb4933/exercism/cpp/nucleotide-count/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

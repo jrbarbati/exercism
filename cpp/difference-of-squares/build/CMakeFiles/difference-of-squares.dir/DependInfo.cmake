@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/jxb4933/go/src/exercism/cpp/difference-of-squares/difference_of_squares.cpp" "/Users/jxb4933/go/src/exercism/cpp/difference-of-squares/build/CMakeFiles/difference-of-squares.dir/difference_of_squares.cpp.o"
-  "/Users/jxb4933/go/src/exercism/cpp/difference-of-squares/difference_of_squares_test.cpp" "/Users/jxb4933/go/src/exercism/cpp/difference-of-squares/build/CMakeFiles/difference-of-squares.dir/difference_of_squares_test.cpp.o"
-  "/Users/jxb4933/go/src/exercism/cpp/difference-of-squares/test/tests-main.cpp" "/Users/jxb4933/go/src/exercism/cpp/difference-of-squares/build/CMakeFiles/difference-of-squares.dir/test/tests-main.cpp.o"
+  "/Users/jxb4933/exercism/cpp/difference-of-squares/difference_of_squares.cpp" "/Users/jxb4933/exercism/cpp/difference-of-squares/build/CMakeFiles/difference-of-squares.dir/difference_of_squares.cpp.o"
+  "/Users/jxb4933/exercism/cpp/difference-of-squares/difference_of_squares_test.cpp" "/Users/jxb4933/exercism/cpp/difference-of-squares/build/CMakeFiles/difference-of-squares.dir/difference_of_squares_test.cpp.o"
+  "/Users/jxb4933/exercism/cpp/difference-of-squares/test/tests-main.cpp" "/Users/jxb4933/exercism/cpp/difference-of-squares/build/CMakeFiles/difference-of-squares.dir/test/tests-main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.11.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jxb4933/go/src/exercism/cpp/difference-of-squares
+CMAKE_SOURCE_DIR = /Users/jxb4933/exercism/cpp/difference-of-squares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jxb4933/go/src/exercism/cpp/difference-of-squares/build
+CMAKE_BINARY_DIR = /Users/jxb4933/exercism/cpp/difference-of-squares/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/difference-of-squares.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/difference-of-squares.dir/flags.make
 
 CMakeFiles/difference-of-squares.dir/difference_of_squares_test.cpp.o: CMakeFiles/difference-of-squares.dir/flags.make
 CMakeFiles/difference-of-squares.dir/difference_of_squares_test.cpp.o: ../difference_of_squares_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jxb4933/go/src/exercism/cpp/difference-of-squares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/difference-of-squares.dir/difference_of_squares_test.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/difference-of-squares.dir/difference_of_squares_test.cpp.o -c /Users/jxb4933/go/src/exercism/cpp/difference-of-squares/difference_of_squares_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jxb4933/exercism/cpp/difference-of-squares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/difference-of-squares.dir/difference_of_squares_test.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/difference-of-squares.dir/difference_of_squares_test.cpp.o -c /Users/jxb4933/exercism/cpp/difference-of-squares/difference_of_squares_test.cpp
 
 CMakeFiles/difference-of-squares.dir/difference_of_squares_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/difference-of-squares.dir/difference_of_squares_test.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jxb4933/go/src/exercism/cpp/difference-of-squares/difference_of_squares_test.cpp > CMakeFiles/difference-of-squares.dir/difference_of_squares_test.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jxb4933/exercism/cpp/difference-of-squares/difference_of_squares_test.cpp > CMakeFiles/difference-of-squares.dir/difference_of_squares_test.cpp.i
 
 CMakeFiles/difference-of-squares.dir/difference_of_squares_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/difference-of-squares.dir/difference_of_squares_test.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jxb4933/go/src/exercism/cpp/difference-of-squares/difference_of_squares_test.cpp -o CMakeFiles/difference-of-squares.dir/difference_of_squares_test.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jxb4933/exercism/cpp/difference-of-squares/difference_of_squares_test.cpp -o CMakeFiles/difference-of-squares.dir/difference_of_squares_test.cpp.s
 
 CMakeFiles/difference-of-squares.dir/difference_of_squares.cpp.o: CMakeFiles/difference-of-squares.dir/flags.make
 CMakeFiles/difference-of-squares.dir/difference_of_squares.cpp.o: ../difference_of_squares.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jxb4933/go/src/exercism/cpp/difference-of-squares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/difference-of-squares.dir/difference_of_squares.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/difference-of-squares.dir/difference_of_squares.cpp.o -c /Users/jxb4933/go/src/exercism/cpp/difference-of-squares/difference_of_squares.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jxb4933/exercism/cpp/difference-of-squares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/difference-of-squares.dir/difference_of_squares.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/difference-of-squares.dir/difference_of_squares.cpp.o -c /Users/jxb4933/exercism/cpp/difference-of-squares/difference_of_squares.cpp
 
 CMakeFiles/difference-of-squares.dir/difference_of_squares.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/difference-of-squares.dir/difference_of_squares.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jxb4933/go/src/exercism/cpp/difference-of-squares/difference_of_squares.cpp > CMakeFiles/difference-of-squares.dir/difference_of_squares.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jxb4933/exercism/cpp/difference-of-squares/difference_of_squares.cpp > CMakeFiles/difference-of-squares.dir/difference_of_squares.cpp.i
 
 CMakeFiles/difference-of-squares.dir/difference_of_squares.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/difference-of-squares.dir/difference_of_squares.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jxb4933/go/src/exercism/cpp/difference-of-squares/difference_of_squares.cpp -o CMakeFiles/difference-of-squares.dir/difference_of_squares.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jxb4933/exercism/cpp/difference-of-squares/difference_of_squares.cpp -o CMakeFiles/difference-of-squares.dir/difference_of_squares.cpp.s
 
 CMakeFiles/difference-of-squares.dir/test/tests-main.cpp.o: CMakeFiles/difference-of-squares.dir/flags.make
 CMakeFiles/difference-of-squares.dir/test/tests-main.cpp.o: ../test/tests-main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jxb4933/go/src/exercism/cpp/difference-of-squares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/difference-of-squares.dir/test/tests-main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/difference-of-squares.dir/test/tests-main.cpp.o -c /Users/jxb4933/go/src/exercism/cpp/difference-of-squares/test/tests-main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jxb4933/exercism/cpp/difference-of-squares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/difference-of-squares.dir/test/tests-main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/difference-of-squares.dir/test/tests-main.cpp.o -c /Users/jxb4933/exercism/cpp/difference-of-squares/test/tests-main.cpp
 
 CMakeFiles/difference-of-squares.dir/test/tests-main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/difference-of-squares.dir/test/tests-main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jxb4933/go/src/exercism/cpp/difference-of-squares/test/tests-main.cpp > CMakeFiles/difference-of-squares.dir/test/tests-main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jxb4933/exercism/cpp/difference-of-squares/test/tests-main.cpp > CMakeFiles/difference-of-squares.dir/test/tests-main.cpp.i
 
 CMakeFiles/difference-of-squares.dir/test/tests-main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/difference-of-squares.dir/test/tests-main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jxb4933/go/src/exercism/cpp/difference-of-squares/test/tests-main.cpp -o CMakeFiles/difference-of-squares.dir/test/tests-main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jxb4933/exercism/cpp/difference-of-squares/test/tests-main.cpp -o CMakeFiles/difference-of-squares.dir/test/tests-main.cpp.s
 
 # Object files for target difference-of-squares
 difference__of__squares_OBJECTS = \
@@ -110,7 +110,7 @@ difference-of-squares: CMakeFiles/difference-of-squares.dir/difference_of_square
 difference-of-squares: CMakeFiles/difference-of-squares.dir/test/tests-main.cpp.o
 difference-of-squares: CMakeFiles/difference-of-squares.dir/build.make
 difference-of-squares: CMakeFiles/difference-of-squares.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jxb4933/go/src/exercism/cpp/difference-of-squares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable difference-of-squares"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jxb4933/exercism/cpp/difference-of-squares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable difference-of-squares"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/difference-of-squares.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +123,6 @@ CMakeFiles/difference-of-squares.dir/clean:
 .PHONY : CMakeFiles/difference-of-squares.dir/clean
 
 CMakeFiles/difference-of-squares.dir/depend:
-	cd /Users/jxb4933/go/src/exercism/cpp/difference-of-squares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jxb4933/go/src/exercism/cpp/difference-of-squares /Users/jxb4933/go/src/exercism/cpp/difference-of-squares /Users/jxb4933/go/src/exercism/cpp/difference-of-squares/build /Users/jxb4933/go/src/exercism/cpp/difference-of-squares/build /Users/jxb4933/go/src/exercism/cpp/difference-of-squares/build/CMakeFiles/difference-of-squares.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/jxb4933/exercism/cpp/difference-of-squares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jxb4933/exercism/cpp/difference-of-squares /Users/jxb4933/exercism/cpp/difference-of-squares /Users/jxb4933/exercism/cpp/difference-of-squares/build /Users/jxb4933/exercism/cpp/difference-of-squares/build /Users/jxb4933/exercism/cpp/difference-of-squares/build/CMakeFiles/difference-of-squares.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/difference-of-squares.dir/depend
 

@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/jxb4933/go/src/exercism/cpp/difference-of-squares/difference_of_squares.cpp
+/Users/jxb4933/exercism/cpp/difference-of-squares/difference_of_squares.cpp
 difference_of_squares.h
-/Users/jxb4933/go/src/exercism/cpp/difference-of-squares/difference_of_squares.h
+/Users/jxb4933/exercism/cpp/difference-of-squares/difference_of_squares.h
 
-/Users/jxb4933/go/src/exercism/cpp/difference-of-squares/difference_of_squares.h
+/Users/jxb4933/exercism/cpp/difference-of-squares/difference_of_squares.h
 
-/Users/jxb4933/go/src/exercism/cpp/difference-of-squares/difference_of_squares_test.cpp
+/Users/jxb4933/exercism/cpp/difference-of-squares/difference_of_squares_test.cpp
 difference_of_squares.h
-/Users/jxb4933/go/src/exercism/cpp/difference-of-squares/difference_of_squares.h
+/Users/jxb4933/exercism/cpp/difference-of-squares/difference_of_squares.h
 test/catch.hpp
-/Users/jxb4933/go/src/exercism/cpp/difference-of-squares/test/catch.hpp
+/Users/jxb4933/exercism/cpp/difference-of-squares/test/catch.hpp
 
-/Users/jxb4933/go/src/exercism/cpp/difference-of-squares/test/catch.hpp
+/Users/jxb4933/exercism/cpp/difference-of-squares/test/catch.hpp
 TargetConditionals.h
 -
 ciso646
@@ -284,7 +284,7 @@ string
 memory
 -
 Foundation/Foundation.h
-/Users/jxb4933/go/src/exercism/cpp/difference-of-squares/test/Foundation/Foundation.h
+/Users/jxb4933/exercism/cpp/difference-of-squares/test/Foundation/Foundation.h
 algorithm
 -
 random
@@ -468,7 +468,7 @@ algorithm
 cassert
 -
 
-/Users/jxb4933/go/src/exercism/cpp/difference-of-squares/test/tests-main.cpp
+/Users/jxb4933/exercism/cpp/difference-of-squares/test/tests-main.cpp
 catch.hpp
-/Users/jxb4933/go/src/exercism/cpp/difference-of-squares/test/catch.hpp
+/Users/jxb4933/exercism/cpp/difference-of-squares/test/catch.hpp
 

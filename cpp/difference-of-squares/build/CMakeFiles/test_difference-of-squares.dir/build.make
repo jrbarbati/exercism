@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.11.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jxb4933/go/src/exercism/cpp/difference-of-squares
+CMAKE_SOURCE_DIR = /Users/jxb4933/exercism/cpp/difference-of-squares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jxb4933/go/src/exercism/cpp/difference-of-squares/build
+CMAKE_BINARY_DIR = /Users/jxb4933/exercism/cpp/difference-of-squares/build
 
 # Utility rule file for test_difference-of-squares.
 
@@ -71,6 +71,6 @@ CMakeFiles/test_difference-of-squares.dir/clean:
 .PHONY : CMakeFiles/test_difference-of-squares.dir/clean
 
 CMakeFiles/test_difference-of-squares.dir/depend:
-	cd /Users/jxb4933/go/src/exercism/cpp/difference-of-squares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jxb4933/go/src/exercism/cpp/difference-of-squares /Users/jxb4933/go/src/exercism/cpp/difference-of-squares /Users/jxb4933/go/src/exercism/cpp/difference-of-squares/build /Users/jxb4933/go/src/exercism/cpp/difference-of-squares/build /Users/jxb4933/go/src/exercism/cpp/difference-of-squares/build/CMakeFiles/test_difference-of-squares.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/jxb4933/exercism/cpp/difference-of-squares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jxb4933/exercism/cpp/difference-of-squares /Users/jxb4933/exercism/cpp/difference-of-squares /Users/jxb4933/exercism/cpp/difference-of-squares/build /Users/jxb4933/exercism/cpp/difference-of-squares/build /Users/jxb4933/exercism/cpp/difference-of-squares/build/CMakeFiles/test_difference-of-squares.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test_difference-of-squares.dir/depend
 

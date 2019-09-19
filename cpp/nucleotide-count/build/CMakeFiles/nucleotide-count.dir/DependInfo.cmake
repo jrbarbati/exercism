@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/jxb4933/go/src/exercism/cpp/nucleotide-count/nucleotide_count.cpp" "/Users/jxb4933/go/src/exercism/cpp/nucleotide-count/build/CMakeFiles/nucleotide-count.dir/nucleotide_count.cpp.o"
-  "/Users/jxb4933/go/src/exercism/cpp/nucleotide-count/nucleotide_count_test.cpp" "/Users/jxb4933/go/src/exercism/cpp/nucleotide-count/build/CMakeFiles/nucleotide-count.dir/nucleotide_count_test.cpp.o"
-  "/Users/jxb4933/go/src/exercism/cpp/nucleotide-count/test/tests-main.cpp" "/Users/jxb4933/go/src/exercism/cpp/nucleotide-count/build/CMakeFiles/nucleotide-count.dir/test/tests-main.cpp.o"
+  "/Users/jxb4933/exercism/cpp/nucleotide-count/nucleotide_count.cpp" "/Users/jxb4933/exercism/cpp/nucleotide-count/build/CMakeFiles/nucleotide-count.dir/nucleotide_count.cpp.o"
+  "/Users/jxb4933/exercism/cpp/nucleotide-count/nucleotide_count_test.cpp" "/Users/jxb4933/exercism/cpp/nucleotide-count/build/CMakeFiles/nucleotide-count.dir/nucleotide_count_test.cpp.o"
+  "/Users/jxb4933/exercism/cpp/nucleotide-count/test/tests-main.cpp" "/Users/jxb4933/exercism/cpp/nucleotide-count/build/CMakeFiles/nucleotide-count.dir/test/tests-main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

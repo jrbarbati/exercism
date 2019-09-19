@@ -1,4 +1,4 @@
-/Users/jxb4933/go/src/exercism/cpp/difference-of-squares/build/CMakeFiles/rebuild_cache.dir
-/Users/jxb4933/go/src/exercism/cpp/difference-of-squares/build/CMakeFiles/edit_cache.dir
-/Users/jxb4933/go/src/exercism/cpp/difference-of-squares/build/CMakeFiles/test_difference-of-squares.dir
-/Users/jxb4933/go/src/exercism/cpp/difference-of-squares/build/CMakeFiles/difference-of-squares.dir
+/Users/jxb4933/exercism/cpp/difference-of-squares/build/CMakeFiles/rebuild_cache.dir
+/Users/jxb4933/exercism/cpp/difference-of-squares/build/CMakeFiles/edit_cache.dir
+/Users/jxb4933/exercism/cpp/difference-of-squares/build/CMakeFiles/test_difference-of-squares.dir
+/Users/jxb4933/exercism/cpp/difference-of-squares/build/CMakeFiles/difference-of-squares.dir
