@@ -1,0 +1,4 @@
+/Users/jxb4933/exercism/cpp/robot-simulator/build/CMakeFiles/test_robot-simulator.dir
+/Users/jxb4933/exercism/cpp/robot-simulator/build/CMakeFiles/rebuild_cache.dir
+/Users/jxb4933/exercism/cpp/robot-simulator/build/CMakeFiles/edit_cache.dir
+/Users/jxb4933/exercism/cpp/robot-simulator/build/CMakeFiles/robot-simulator.dir
