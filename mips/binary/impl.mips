@@ -1,8 +1,0 @@
-.globl binary_convert
-
-.text
-
-binary_convert:
-	move $v0, 0 # result
-	move $t7, 0 # counter
-	
