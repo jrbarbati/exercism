@@ -2,15 +2,15 @@ struct Bob {
     
     static func hey(_ input: String) -> String {
         
-        if input.isOnlyWhitespace() {
+        if input.isOnlyWhitespace {
             return "Fine. Be that way!"
         }
         
-        if input.isAllCaps() {
+        if input.isAllCaps {
             return "Whoa, chill out!"
         }
         
-        if input.isQuestion() {
+        if input.isQuestion {
             return "Sure."
         }
         
@@ -20,29 +20,29 @@ struct Bob {
 
 private extension String {
     
-    func isOnlyWhitespace() -> Bool {
-        return self.filter({ (char: Character) -> Bool in !char.isWhitespace }).isEmpty
+    var isOnlyWhitespace: Bool {
+        return self.filter { !$0.isWhitespace }.isEmpty
     }
     
-    func endsWith(_ char: Character) -> Bool {
-        guard let _ = self.last else {
-            return false
-        }
-        
-        return char == self.last!
-    }
-    
-    func isQuestion() -> Bool {
+    var isQuestion: Bool {
         return self.endsWith("?")
     }
     
-    func isAllCaps() -> Bool {
-        let letters = self.filter({ (char: Character) -> Bool in char.isLetter})
+    var isAllCaps: Bool {
+        let letters = self.filter { $0.isLetter }
         
         if letters.isEmpty {
             return false
         }
         
-        return letters.filter({ (letter: Character) -> Bool in letter.isLowercase}).isEmpty
+        return letters.filter { $0.isLowercase }.isEmpty
+    }
+    
+    func endsWith(_ char: Character) -> Bool {
+        guard let lastChar = self.last else {
+            return false
+        }
+        
+        return char == lastChar
     }
 }
