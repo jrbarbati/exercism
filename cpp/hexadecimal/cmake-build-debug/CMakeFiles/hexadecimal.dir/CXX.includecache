@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jxb4933/exercism/cpp/hexadecimal/hexadecimal.cpp
+map
+-
+cmath
+-
+hexadecimal.h
+/Users/jxb4933/exercism/cpp/hexadecimal/hexadecimal.h
+
+/Users/jxb4933/exercism/cpp/hexadecimal/hexadecimal.h
+string
+-
+

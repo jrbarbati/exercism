@@ -13,7 +13,7 @@ namespace trinary
             if (std::isalpha(trinary[i]))
                 return 0;
 
-            decimal += double(trinary[i] - '0') * pow(3, trinary.size() - 1 - i);
+            decimal += double(trinary[i] - '0') * std::pow(3, trinary.size() - 1 - i);
         }
 
         return decimal;
