@@ -1,0 +1,4 @@
+/Users/jxb4933/exercism/cpp/trinary/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/jxb4933/exercism/cpp/trinary/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jxb4933/exercism/cpp/trinary/cmake-build-debug/CMakeFiles/test_trinary.dir
+/Users/jxb4933/exercism/cpp/trinary/cmake-build-debug/CMakeFiles/trinary.dir

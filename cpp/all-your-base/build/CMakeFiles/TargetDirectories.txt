@@ -1,0 +1,4 @@
+/Users/jxb4933/exercism/cpp/all-your-base/build/CMakeFiles/rebuild_cache.dir
+/Users/jxb4933/exercism/cpp/all-your-base/build/CMakeFiles/edit_cache.dir
+/Users/jxb4933/exercism/cpp/all-your-base/build/CMakeFiles/test_all-your-base.dir
+/Users/jxb4933/exercism/cpp/all-your-base/build/CMakeFiles/all-your-base.dir

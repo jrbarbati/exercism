@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jxb4933/exercism/cpp/trinary/trinary.cpp
+cmath
+-
+trinary.h
+/Users/jxb4933/exercism/cpp/trinary/trinary.h
+
+/Users/jxb4933/exercism/cpp/trinary/trinary.h
+string
+-
+
