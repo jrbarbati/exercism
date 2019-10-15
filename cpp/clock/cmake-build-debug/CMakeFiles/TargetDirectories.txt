@@ -1,0 +1,4 @@
+/Users/jxb4933/exercism/cpp/clock/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/jxb4933/exercism/cpp/clock/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jxb4933/exercism/cpp/clock/cmake-build-debug/CMakeFiles/test_clock.dir
+/Users/jxb4933/exercism/cpp/clock/cmake-build-debug/CMakeFiles/clock.dir

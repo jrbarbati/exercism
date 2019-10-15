@@ -1,0 +1,4 @@
+/Users/jxb4933/exercism/cpp/etl/build/CMakeFiles/rebuild_cache.dir
+/Users/jxb4933/exercism/cpp/etl/build/CMakeFiles/edit_cache.dir
+/Users/jxb4933/exercism/cpp/etl/build/CMakeFiles/test_etl.dir
+/Users/jxb4933/exercism/cpp/etl/build/CMakeFiles/etl.dir
