@@ -3,10 +3,10 @@
 
 int is_saddle_point(size_t row, size_t col, size_t rows, size_t cols, uint8_t matrix[rows][cols]);
 
-saddle_points_t *saddlePoints(size_t rows, size_t cols, uint8_t matrix[rows][cols])
+saddle_points_t *saddle_points(size_t rows, size_t cols, uint8_t matrix[rows][cols])
 {
 	saddle_points_t *saddle_points = calloc(1, sizeof(saddle_points_t));
-	saddle_points->points = calloc(rows * cols, sizeof(saddle_point_t *));
+	saddle_points->points = calloc(rows * cols, sizeof(saddle_point_t));
 	size_t row, col;
 
 	if (matrix == NULL)
@@ -36,4 +36,10 @@ int is_saddle_point(size_t row, size_t col, size_t rows, size_t cols, uint8_t ma
 			return 0;
 	
 	return 1;
+}
+
+void free_saddle_points(saddle_points_t *saddle_points)
+{
+	free(saddle_points->points);
+	free(saddle_points);
 }
