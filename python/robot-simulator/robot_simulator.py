@@ -1,4 +1,4 @@
-class Bearing:
+class Direction:
 	def __init__(self, xOffset, yOffset):
 		self.xOffset = xOffset
 		self.yOffset = yOffset
@@ -13,10 +13,10 @@ class Bearing:
 		return hash((self.xOffset, self.yOffset))
 
 
-EAST = Bearing(1, 0)
-NORTH = Bearing(0, 1)
-WEST = Bearing(-1, 0)
-SOUTH = Bearing(0, -1)
+EAST = Direction(1, 0)
+NORTH = Direction(0, 1)
+WEST = Direction(-1, 0)
+SOUTH = Direction(0, -1)
 
 
 class Robot:
@@ -35,9 +35,9 @@ class Robot:
 		WEST: SOUTH
 	}
 
-	def __init__(self, bearing=NORTH, x=0, y=0):
+	def __init__(self, direction=NORTH, x=0, y=0):
 		self.coordinates = (x, y)
-		self.bearing = bearing
+		self.direction = direction
 		self.functions = {
 			"A": self.advance,
 			"R": self.turn_right,
@@ -45,14 +45,14 @@ class Robot:
 		}
 
 	def advance(self):
-		self.coordinates = (self.coordinates[0] + self.bearing.xOffset, self.coordinates[1] + self.bearing.yOffset)
+		self.coordinates = (self.coordinates[0] + self.direction.xOffset, self.coordinates[1] + self.direction.yOffset)
 
 	def turn_right(self):
-		self.bearing = self.right_conversions[self.bearing]
+		self.direction = self.right_conversions[self.direction]
 
 	def turn_left(self):
-		self.bearing = self.left_conversions[self.bearing]
+		self.direction = self.left_conversions[self.direction]
 
-	def simulate(self, commands: str):
+	def move(self, commands: str):
 		for command in commands:
 			self.functions[command]()
