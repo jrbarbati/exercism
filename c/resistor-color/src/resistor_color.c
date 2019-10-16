@@ -1,7 +1,7 @@
 #include "resistor_color.h"
 #include <stdlib.h>
 
-int colorCode(resistor_band_t resistor_band)
+int color_code(resistor_band_t resistor_band)
 {
 	return resistor_band;
 }
