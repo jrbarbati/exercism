@@ -3,5 +3,5 @@ func compute(_ strand1: String, against strand2: String) -> Int? {
         return nil
     }
     
-    return zip(strand1, strand2).filter { (nucleotides) in return nucleotides.0 != nucleotides.1 }.count
+    return zip(strand1, strand2).filter(!=).count
 }
