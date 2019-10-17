@@ -3,13 +3,5 @@ func compute(_ strand1: String, against strand2: String) -> Int? {
         return nil
     }
     
-    return zip(strand1, strand2).reduce(0, { (currentDistance, nucleotides) in
-        let (nucleotide1, nucleotide2) = nucleotides
-        
-        if nucleotide1 != nucleotide2 {
-            return (currentDistance ?? 0) + 1
-        }
-        
-        return currentDistance
-    })
+    return zip(strand1, strand2).filter { (nucleotides) in return nucleotides.0 != nucleotides.1 }.count
 }
