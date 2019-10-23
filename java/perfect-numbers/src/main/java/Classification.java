@@ -2,7 +2,8 @@ enum Classification
 {
     DEFICIENT, PERFECT, ABUNDANT;
 
-    public static Classification get(int number, int sumOfFactors) {
+    public static Classification get(int number, int sumOfFactors)
+    {
         if (number == sumOfFactors)
             return PERFECT;
 
