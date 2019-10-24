@@ -1,5 +1,6 @@
-import java.util.ArrayList;
+import java.util.EnumSet;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Allergies
 {
@@ -14,13 +15,7 @@ public class Allergies
 
     private List<Allergen> buildAllergies()
     {
-        List<Allergen> allergens = new ArrayList<>();
-
-        for (Allergen allergen : Allergen.values())
-            if (isAllergicTo(allergen))
-                allergens.add(allergen);
-
-        return allergens;
+        return EnumSet.allOf(Allergen.class).stream().filter(this::isAllergicTo).collect(Collectors.toList());
     }
 
     public boolean isAllergicTo(Allergen allergen)

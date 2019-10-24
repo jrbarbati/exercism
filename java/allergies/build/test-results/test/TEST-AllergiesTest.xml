@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AllergiesTest" tests="49" skipped="0" failures="0" errors="0" timestamp="2019-10-24T20:00:53" hostname="C02W11Y6HTD6MBP" time="0.012">
+<testsuite name="AllergiesTest" tests="49" skipped="0" failures="0" errors="0" timestamp="2019-10-24T20:03:56" hostname="C02W11Y6HTD6MBP" time="0.019">
   <properties/>
-  <testcase name="eggsNotAllergicToAnything" classname="AllergiesTest" time="0.002"/>
+  <testcase name="eggsNotAllergicToAnything" classname="AllergiesTest" time="0.008"/>
   <testcase name="eggsAllergicToEverything" classname="AllergiesTest" time="0.0"/>
-  <testcase name="listoMoreThanEggsButNotPeanuts" classname="AllergiesTest" time="0.0"/>
+  <testcase name="listoMoreThanEggsButNotPeanuts" classname="AllergiesTest" time="0.001"/>
   <testcase name="listNoAllergenScoreParts" classname="AllergiesTest" time="0.0"/>
-  <testcase name="shellfishAllergicToSomethingButNotShellfish" classname="AllergiesTest" time="0.001"/>
+  <testcase name="shellfishAllergicToSomethingButNotShellfish" classname="AllergiesTest" time="0.0"/>
   <testcase name="tomatoesAllergicToTomatoesAndSomethingElse" classname="AllergiesTest" time="0.0"/>
-  <testcase name="listEverything" classname="AllergiesTest" time="0.0"/>
+  <testcase name="listEverything" classname="AllergiesTest" time="0.001"/>
   <testcase name="catsAllergicToEverything" classname="AllergiesTest" time="0.0"/>
   <testcase name="pollenAllergicToEverything" classname="AllergiesTest" time="0.0"/>
   <testcase name="chocolateAllergicToSomethingButNotChocolate" classname="AllergiesTest" time="0.0"/>
-  <testcase name="pollenNotAllergicToAnything" classname="AllergiesTest" time="0.001"/>
+  <testcase name="pollenNotAllergicToAnything" classname="AllergiesTest" time="0.0"/>
   <testcase name="shellfishNotAllergicToAnything" classname="AllergiesTest" time="0.0"/>
   <testcase name="listJustPeanuts" classname="AllergiesTest" time="0.0"/>
   <testcase name="chocolateAllergicOnlyToChocolate" classname="AllergiesTest" time="0.0"/>
@@ -25,17 +25,17 @@
   <testcase name="peanutsAllergicOnlyToPeanuts" classname="AllergiesTest" time="0.0"/>
   <testcase name="strawberriesAllergicToEverything" classname="AllergiesTest" time="0.0"/>
   <testcase name="listNoAllergies" classname="AllergiesTest" time="0.0"/>
-  <testcase name="strawberriesAllergicOnlyToStrawberries" classname="AllergiesTest" time="0.0"/>
+  <testcase name="strawberriesAllergicOnlyToStrawberries" classname="AllergiesTest" time="0.001"/>
   <testcase name="tomatoesAllergicOnlyToTomatoes" classname="AllergiesTest" time="0.0"/>
   <testcase name="chocolateNotAllergicToAnything" classname="AllergiesTest" time="0.0"/>
   <testcase name="strawberriesAllergicToStrawberriesAndSomethingElse" classname="AllergiesTest" time="0.0"/>
-  <testcase name="eggsAllergicOnlyToEggs" classname="AllergiesTest" time="0.0"/>
+  <testcase name="eggsAllergicOnlyToEggs" classname="AllergiesTest" time="0.001"/>
   <testcase name="pollenAllergicOnlyToPollen" classname="AllergiesTest" time="0.0"/>
   <testcase name="catsAllergicToCatsAndSomethingElse" classname="AllergiesTest" time="0.0"/>
   <testcase name="peanutsAllergicToEverything" classname="AllergiesTest" time="0.0"/>
   <testcase name="pollenAllergicToSomethingButNotPollen" classname="AllergiesTest" time="0.0"/>
   <testcase name="peanutsAllergicToSomethingButNotPeanuts" classname="AllergiesTest" time="0.0"/>
-  <testcase name="listJustEggs" classname="AllergiesTest" time="0.0"/>
+  <testcase name="listJustEggs" classname="AllergiesTest" time="0.001"/>
   <testcase name="strawberriesNotAllergicToAnything" classname="AllergiesTest" time="0.0"/>
   <testcase name="tomatoesAllergicToSomethingButNotTomatoes" classname="AllergiesTest" time="0.0"/>
   <testcase name="shellfishAllergicOnlyToShellfish" classname="AllergiesTest" time="0.0"/>
