@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jxb4933/exercism/cpp/sum-of-multiples/sum_of_multiples.cpp
+sum_of_multiples.h
+/Users/jxb4933/exercism/cpp/sum-of-multiples/sum_of_multiples.h
+
+/Users/jxb4933/exercism/cpp/sum-of-multiples/sum_of_multiples.h
+vector
+-
+
