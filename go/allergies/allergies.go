@@ -7,7 +7,7 @@ func Allergies(score uint) []string {
 	allergies := []string{"eggs", "peanuts", "shellfish", "strawberries", "tomatoes", "chocolate", "pollen", "cats"}
 
 	for index, allergy := range allergies {
-		if (1 << uint(index) & score) > 0 {
+		if (1 << index & score) > 0 {
 			allergicTo = append(allergicTo, allergy)
 		}
 	}
