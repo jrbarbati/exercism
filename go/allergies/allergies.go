@@ -2,14 +2,14 @@
 package allergies
 
 var allergies = map[string]uint{
-		"eggs":         1,
-		"peanuts":      2,
-		"shellfish":    4,
-		"strawberries": 8,
-		"tomatoes":     16,
-		"chocolate":    32,
-		"pollen":       64,
-		"cats":         128,
+	"eggs":         1,
+	"peanuts":      2,
+	"shellfish":    4,
+	"strawberries": 8,
+	"tomatoes":     16,
+	"chocolate":    32,
+	"pollen":       64,
+	"cats":         128,
 }
 
 var allergiesList = []string{"eggs", "peanuts", "shellfish", "strawberries", "tomatoes", "chocolate", "pollen", "cats"}
