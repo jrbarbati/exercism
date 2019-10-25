@@ -5,12 +5,7 @@ import java.util.stream.IntStream;
 
 class HandshakeCalculator
 {
-    private static final Signal[] signals = {
-        Signal.WINK,
-        Signal.DOUBLE_BLINK,
-        Signal.CLOSE_YOUR_EYES,
-        Signal.JUMP,
-    };
+    private static Signal[] signals = Signal.values();
 
     List<Signal> calculateHandshake(int number)
     {
