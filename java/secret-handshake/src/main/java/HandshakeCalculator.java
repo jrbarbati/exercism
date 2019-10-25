@@ -19,14 +19,9 @@ class HandshakeCalculator
                 .filter(i -> (1<<i & number) > 0)
                 .mapToObj(i -> signals[i]).collect(Collectors.toList());
 
-        return (16 & number) > 0 ? reverse(secretHandshake) : secretHandshake;
-    }
+        if ((16 & number) > 0)
+            Collections.reverse(secretHandshake);
 
-    private List<Signal> reverse(List<Signal> signals)
-    {
-        for (int i = 0, j = signals.size() - 1; i < j; i++, j--)
-            Collections.swap(signals, i, j);
-
-        return signals;
+        return secretHandshake;
     }
 }
