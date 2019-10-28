@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.stream.IntStream;
+
 class SumOfMultiples
 {
     private int sum;
@@ -14,16 +17,9 @@ class SumOfMultiples
 
     private int calculateSumOfMultiples(int max, int[] factors)
     {
-        int sum = 0;
-
-        for (int i = 1; i < max; i++)
-            for (int factor : factors)
-                if (factor != 0 && i % factor == 0)
-                {
-                    sum += i;
-                    break;
-                }
-
-        return sum;
+        return IntStream
+                .range(1, max)
+                .filter(i -> Arrays.stream(factors).anyMatch(factor -> factor != 0 && i % factor == 0))
+                .sum();
     }
 }
