@@ -6,17 +6,30 @@ import java.util.stream.IntStream;
 class HandshakeCalculator
 {
     private static Signal[] signals = Signal.values();
+    private int number;
 
     List<Signal> calculateHandshake(int number)
     {
+        this.number = number;
+
         List<Signal> secretHandshake = IntStream
-                .range(0, 4)
-                .filter(i -> (1<<i & number) > 0)
+                .range(0, signals.length)
+                .filter(this::shouldIncludeSignalAtIndex)
                 .mapToObj(i -> signals[i]).collect(Collectors.toList());
 
-        if ((16 & number) > 0)
+        if (shouldReverse())
             Collections.reverse(secretHandshake);
 
         return secretHandshake;
+    }
+
+    private boolean shouldIncludeSignalAtIndex(int index)
+    {
+        return (1<<index & number) > 0;
+    }
+
+    private boolean shouldReverse()
+    {
+        return shouldIncludeSignalAtIndex(4);
     }
 }
