@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.HashSet;
 
 class Triangle
 {
@@ -13,12 +14,12 @@ class Triangle
         Arrays.sort(sides);
 
         if (!isValid())
-            throw new TriangleException("%f, %f, and %f do not make a valid triangle.", side1, side2, side3);
+            throw new TriangleException();
     }
 
     private boolean isValid()
     {
-        return Arrays.stream(sides).sum() != 0 && sides[0] + sides[1] >= sides[2];
+        return (sides[0] + sides[1] + sides[2] != 0) && (sides[0] + sides[1] >= sides[2]);
     }
 
     boolean isEquilateral()
