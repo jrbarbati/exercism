@@ -1,6 +1,7 @@
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Collector;
 
 public class RotationalCipher
 {
@@ -14,15 +15,18 @@ public class RotationalCipher
 
 	public String rotate(String data) 
 	{
-		StringBuilder sb = new StringBuilder();
-
-		for (char c : data.toCharArray())
-			sb.append(rotate(c));
-
-		return sb.toString();
+		return data.codePoints()
+				   .map(this::rotate)
+				   .boxed()
+				   .collect(Collector.of(
+				   				StringBuilder::new,
+				   				StringBuilder::appendCodePoint,
+				   				StringBuilder::append
+				   			))
+				   .toString();
 	}
 
-	private char rotate(char c)
+	private int rotate(int c)
 	{
 		if (!Character.isLetter(c))
 			return c;
@@ -30,8 +34,8 @@ public class RotationalCipher
 		return Character.isUpperCase(c) ? rotate(c, 'A') : rotate(c, 'a');
 	}
 
-	private char rotate(char c, char start)
+	private int rotate(int c, int start)
 	{
-		return (char) (((c + key - start) % NUM_OF_CHARS_IN_ALPHABET) + start);
+		return ((c + key - start) % NUM_OF_CHARS_IN_ALPHABET) + start;
 	}
 }

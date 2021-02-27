@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RotationalCipherTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-02-27T17:32:15" hostname="C02V56HRHTD6MBP" time="0.004">
+<testsuite name="RotationalCipherTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-02-27T17:44:17" hostname="C02V56HRHTD6MBP" time="0.01">
   <properties/>
-  <testcase name="rotateCapitalLetters" classname="RotationalCipherTest" time="0.002"/>
+  <testcase name="rotateCapitalLetters" classname="RotationalCipherTest" time="0.006"/>
   <testcase name="rotateNumbers" classname="RotationalCipherTest" time="0.0"/>
-  <testcase name="rotatePunctuation" classname="RotationalCipherTest" time="0.001"/>
-  <testcase name="rotateAllLetters" classname="RotationalCipherTest" time="0.0"/>
+  <testcase name="rotatePunctuation" classname="RotationalCipherTest" time="0.0"/>
+  <testcase name="rotateAllLetters" classname="RotationalCipherTest" time="0.001"/>
   <testcase name="rotateSingleCharacterBy0" classname="RotationalCipherTest" time="0.0"/>
   <testcase name="rotateSingleCharacterBy1" classname="RotationalCipherTest" time="0.0"/>
   <testcase name="rotateSingleCharacterBy13" classname="RotationalCipherTest" time="0.0"/>
