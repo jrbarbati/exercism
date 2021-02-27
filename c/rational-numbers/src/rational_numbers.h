@@ -9,21 +9,13 @@ typedef struct rational
 	int denominator;
 } rational_t;
 
-rational_t add(rational_t x, rational_t y);
-
-rational_t subtract(rational_t x, rational_t y);
-
-rational_t multiply(rational_t x, rational_t y);
-
-rational_t divide(rational_t x, rational_t y);
-
+rational_t add(rational_t r1, rational_t r2);
+rational_t subtract(rational_t r1, rational_t r2);
+rational_t multiply(rational_t r1, rational_t r2);
+rational_t divide(rational_t r1, rational_t r2);
 rational_t absolute(rational_t r);
-
-rational_t exp_rational(rational_t r, int power);
-
-float exp_real(uint16_t num, rational_t power);
-
+rational_t exp_rational(rational_t r, uint16_t n);
+float exp_real(uint16_t x, rational_t r);
 rational_t reduce(rational_t r);
-
 
 #endif

@@ -1,85 +1,107 @@
-#include <stdio.h>
-#include <math.h>
-
 #include "rational_numbers.h"
+#include <math.h>
+#include <stdio.h>
 
-int absolute_value(int x);
+int int_absolute(int num);
+int gcd(int num1, int num2);
 
-int greatest_common_denominator(int x, int y);
-
-rational_t add(rational_t x, rational_t y)
+rational_t add(rational_t r1, rational_t r2)
 {
-	rational_t sum = {x.numerator * y.denominator + x.denominator * y.numerator, x.denominator * y.denominator};
-	return reduce(sum);
+	int numerator, denominator;
+
+	numerator = r1.numerator * r2.denominator + r1.denominator * r2.numerator;
+	denominator = r1.denominator * r2.denominator;
+
+	rational_t result = {numerator, denominator};
+
+	return reduce(result);
 }
 
-rational_t subtract(rational_t x, rational_t y)
+rational_t subtract(rational_t r1, rational_t r2)
 {
-	rational_t difference = {x.numerator * y.denominator - x.denominator * y.numerator, x.denominator * y.denominator};
-	return reduce(difference);
+	int numerator, denominator;
+
+	numerator = r1.numerator * r2.denominator - r1.denominator * r2.numerator;
+	denominator = r1.denominator * r2.denominator;
+
+	rational_t result = {numerator, denominator};
+
+	return reduce(result);
 }
 
-rational_t multiply(rational_t x, rational_t y)
+rational_t multiply(rational_t r1, rational_t r2)
 {
-	rational_t product = {x.numerator * y.numerator, x.denominator * y.denominator};
-	return reduce(product);
+	rational_t result = {r1.numerator * r2.numerator, r1.denominator * r2.denominator};
+	return reduce(result);
 }
 
-rational_t divide(rational_t x, rational_t y)
+rational_t divide(rational_t r1, rational_t r2)
 {
-	rational_t quotient = {x.numerator * y.denominator, x.denominator * y.numerator};
-	return reduce(quotient);
+	rational_t result = {r1.numerator * r2.denominator, r1.denominator * r2.numerator};
+	return reduce(result);
 }
 
 rational_t absolute(rational_t r)
 {
-	rational_t abs = {
-		absolute_value(r.numerator), 
-		absolute_value(r.denominator)
-	};
-
-	return reduce(abs);
+	rational_t result = {int_absolute(r.numerator), int_absolute(r.denominator)};
+	return result;
 }
 
-rational_t exp_rational(rational_t r, int power)
+rational_t exp_rational(rational_t r, uint16_t n)
 {
-	rational_t exp = {pow(r.numerator, power), pow(r.denominator, power)};
-	return reduce(exp);
+	rational_t result = {pow(r.numerator, n), pow(r.denominator, n)};
+	return result;
 }
 
-float exp_real(uint16_t num, rational_t power)
+float exp_real(uint16_t x, rational_t r)
 {
-	printf("%d, %d, %d\n", num, power.numerator, power.denominator);
-	return 0;
+	if (r.numerator == 0)
+		return 1;
+
+	float power = (float) r.numerator / (float) r.denominator;
+
+	return pow(x, power);
 }
 
 rational_t reduce(rational_t r)
 {
-	if (r.numerator == 0) 
+	int d, numerator, denominator;
+
+	d = gcd(r.numerator, r.denominator);
+	numerator = r.numerator / d;
+	denominator =  r.denominator / d;
+
+	if (denominator < 0)
 	{
-		rational_t reduced = {0, 1};
-		return reduced;
+		numerator = -numerator;
+		denominator = -denominator;
 	}
 
-	int gcd = greatest_common_denominator(r.numerator, r.denominator);
-	rational_t reduced = {r.numerator / gcd, r.denominator / gcd};
-
-	return reduced;
+	rational_t result = {numerator, denominator};
+	
+	return result;
 }
 
-int absolute_value(int x)
+int int_absolute(int num)
 {
-	return x >= 0 ? x : -x;
+	return num >= 0 ? num : -num;
 }
 
-int greatest_common_denominator(int x, int y)
+int gcd(int num1, int num2)
 {
-	int common_factor = 1, i;
+	if (num1 == 0) 
+		return num2;
 
-	for (i = 1; i < x * y; i++)
-		if (x % i == 0 && y % i == 0)
-			common_factor = i;
+	num1 = int_absolute(num1);
+	num2 = int_absolute(num2);
 
-	return common_factor;
+	while (num1 != num2)
+	{
+		if (num1 > num2)
+			num1 -= num2;
+		else
+			num2 -= num1;
+	}
+
+	return num1;
 }
-
