@@ -60,12 +60,11 @@ func AreaCode(input string) (string, error) {
 
 func Format(input string) (string, error) {
 	cleanedNumber, err := Number(input)
+	areaCode, _ := AreaCode(cleanedNumber)
 
 	if err != nil {
 		return "", err
 	}
-
-	areaCode, _ := AreaCode(cleanedNumber)
 
 	return fmt.Sprintf("(%s) %s-%s", areaCode, cleanedNumber[3:6], cleanedNumber[6:]), nil
 }
