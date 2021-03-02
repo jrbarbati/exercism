@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jxb4933/personal/exercism/cpp/armstrong-numbers/armstrong_numbers.cpp
+armstrong_numbers.h
+/Users/jxb4933/personal/exercism/cpp/armstrong-numbers/armstrong_numbers.h
+
+/Users/jxb4933/personal/exercism/cpp/armstrong-numbers/armstrong_numbers.h
+
