@@ -2,8 +2,8 @@
 #include <math.h>
 #include <stdio.h>
 
-int int_absolute(int num);
-int gcd(int num1, int num2);
+static int int_absolute(int num);
+static int gcd(int num1, int num2);
 
 rational_t add(rational_t r1, rational_t r2)
 {
@@ -82,12 +82,12 @@ rational_t reduce(rational_t r)
 	return result;
 }
 
-int int_absolute(int num)
+static int int_absolute(int num)
 {
 	return num >= 0 ? num : -num;
 }
 
-int gcd(int num1, int num2)
+static int gcd(int num1, int num2)
 {
 	if (num1 == 0) 
 		return num2;
