@@ -59,8 +59,6 @@ int16_t overwrite(circular_buffer_t *buffer, buffer_value_t value)
 
 void clear_buffer(circular_buffer_t *buffer)
 {
-	free(buffer->values);
-	buffer->values = calloc(buffer->capacity, sizeof(buffer_value_t));
 	buffer->head = 0;
 	buffer->size = 0;
 }
