@@ -13,6 +13,5 @@ resistor_value_t color_code(resistor_band_t *colors)
 		unit = KILOOHMS;
 	}
 
-	resistor_value_t value = { ohms, unit };
-	return value;
+	return (resistor_value_t) { ohms, unit };
 }
