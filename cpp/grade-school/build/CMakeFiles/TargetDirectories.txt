@@ -1,0 +1,4 @@
+/Users/jxb4933/personal/exercism/cpp/grade-school/build/CMakeFiles/rebuild_cache.dir
+/Users/jxb4933/personal/exercism/cpp/grade-school/build/CMakeFiles/edit_cache.dir
+/Users/jxb4933/personal/exercism/cpp/grade-school/build/CMakeFiles/test_grade-school.dir
+/Users/jxb4933/personal/exercism/cpp/grade-school/build/CMakeFiles/grade-school.dir
