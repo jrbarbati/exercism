@@ -15,8 +15,8 @@ struct CircularBuffer<T>
     
     mutating func read() throws -> T
     {
-        if self.size == 0
-        {
+        guard self.size > 0
+        else {
             throw CircularBufferError.bufferEmpty
         }
         
@@ -30,8 +30,8 @@ struct CircularBuffer<T>
     
     mutating func write(_ element: T) throws
     {
-        if self.size == self.capacity
-        {
+        guard self.size < self.capacity
+        else {
             throw CircularBufferError.bufferFull
         }
         
