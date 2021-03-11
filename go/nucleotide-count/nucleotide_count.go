@@ -2,7 +2,7 @@
 package dna
 
 import (
-	"fmt"
+	"errors"
 )
 
 type Histogram map[rune]int
@@ -21,7 +21,7 @@ func (d DNA) Counts() (Histogram, error) {
  
 	for _, nucleotide := range d {
 		if !h.contains(nucleotide) {
-			return nil, fmt.Errorf("%v is an invalid nucleotide", nucleotide)
+			return nil, errors.New("invalid nucleotide")
 		}
 
 		h[nucleotide]++
