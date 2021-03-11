@@ -2,23 +2,16 @@
 package anagram
 
 import (
-	"reflect"
 	"strings"
 )
 
 // Detect finds anagrams of subject from the candidates
 func Detect(subject string, candidates []string) []string {
 	anagrams := make([]string, 0)
-	sub := asMap(subject)
+	subject = strings.ToLower(subject)
 
 	for _, candidate := range candidates {
-		if strings.ToLower(subject) == strings.ToLower(candidate) {
-			continue
-		}
-
-		c := asMap(candidate)
-
-		if reflect.DeepEqual(sub, c) {
+		if isAnagram(subject, strings.ToLower(candidate)) {
 			anagrams = append(anagrams, candidate)
 		}
 	}
@@ -26,12 +19,17 @@ func Detect(subject string, candidates []string) []string {
 	return anagrams
 }
 
-func asMap(str string) map[rune]int {
-	mapped := map[rune]int{}
-
-	for _, char := range strings.ToLower(str) {
-		mapped[char]++
+func isAnagram(subject, candidate string) bool {
+	if len(subject) != len(candidate) || subject == candidate {
+		return false
 	}
 
-	return mapped
+	for _, char := range subject {
+		c := string(char)
+		if strings.Count(subject, c) != strings.Count(candidate, c) {
+			return false
+		}
+	}
+
+	return true
 }
