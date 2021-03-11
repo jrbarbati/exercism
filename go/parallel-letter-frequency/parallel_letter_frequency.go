@@ -7,7 +7,7 @@ func ConcurrentFrequency(strings []string) FreqMap {
 	frequencies := FreqMap{}
 
 	for _, text := range strings {
-		go func(text string) {
+		go func (text string) {
 			channel <- Frequency(text)
 		}(text)
 	}
