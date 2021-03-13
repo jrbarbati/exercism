@@ -90,5 +90,9 @@ func findRecordsWithParent(parentId int, records []Record) []*Node {
 		}
 	}
 
+	if len(children) == 0 {
+		return nil
+	}
+
 	return children
 }
